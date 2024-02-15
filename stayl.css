@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  max-width: 1440px;
+  width: 100%;
+  background-color: #0b0b22;
+  margin: 0 auto;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+#header {
+  padding: 60px;
+}
+.header-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-text h3 {
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header-text a {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+  margin: 30px;
+}
+.header-text button {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+  background: var(--Button-Light, rgba(255, 255, 255, 0.1));
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+#hero {
+  padding: 40px;
+}
+.hero-text h2 {
+  color: var(--Green, #16fcd2);
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  /* Section Badge */
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 200% */
+  letter-spacing: 1.6px;
+}
+.hero-text h1 {
+  color: #fff;
+  text-align: center;
+
+  /* Page Title */
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px; /* 150% */
+}
+
+.hero-text p {
+  padding: 30px 0;
+  color: var(--Muted, rgba(255, 255, 255, 0.6));
+  text-align: center;
+
+  /* Page Description */
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
+}
+
+.p1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 3px;
+  background: var(--Primary, #6016fc);
+  display: inline-flex;
+  padding: 15px 55px;
+  border: none;
+  align-items: flex-start;
+  gap: 10px;
+}
+.eple-text {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.p2 {
+  color: #fff;
+  text-align: center;
+  border: none;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 3px;
+  background: var(--Button-Light, rgba(255, 255, 255, 0.1));
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  display: flex;
+  padding: 15px 55px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.block-text {
+  padding-left: 20px;
+  padding-top: 30px;
+  width: 328px;
+  height: 276px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--Light, rgba(255, 255, 255, 0.05));
+}
+
+.block-text img {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 13px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.block-text h4 {
+  padding: 30px 0;
+  color: #fff;
+
+  /* Feature Card Title */
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.block-text p {
+  color: var(--Muted, rgba(255, 255, 255, 0.6));
+
+  /* Feature Card Description */
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
+}
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.footer {
+  padding-top: 45px;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  margin-right: 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0px;
+  align-items: center;
+  gap: 55.698px;
+}
